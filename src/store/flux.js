@@ -2,7 +2,7 @@ const getState = ({ getStore, getActions, setStore }) => {
     return {
         store: {
             apiUrl: 'https://api.nasa.gov/planetary/apod',
-            apiKey: '9zufnBwiaznhYo9j2caitAxGPTEegFSvE1yeLC16',
+            apiKey: '',
             photos: null,
             start_date: '2022-02-01',
             end_date: '2022-02-14'
